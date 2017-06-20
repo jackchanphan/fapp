@@ -1,0 +1,62 @@
+nav .circle1{
+	background-image: url(../img/item-circle.png);
+}
+nav .circle2{
+	background-image: url(../img/item-circle1.png);
+}
+nav .circle3{
+	background-image: url(../img/item-circle2.png);
+}
+nav li{
+	background:url(../img/item-down.png) center bottom no-repeat;
+}
+nav .panda{
+	cursor: pointer;
+	background: url(../img/panda.png) center bottom no-repeat;
+}
+.login{
+	background: url(../img/login.png) center center no-repeat;
+}
+.search{
+	width:601px;
+	height:55px;
+	padding-left: 26px;
+	padding-top: 16px;
+	margin-top: 4rem;
+	background:url('../img/search.png') no-repeat center left;
+	margin-left:209px;
+}
+.channel-pan{
+	width: 1000px;
+	height: 174px;
+	margin-top: 2rem;
+	background: url('../img/s_catebg.png') center no-repeat;
+}
+aside .message{
+	background: url('../img/message.png') center no-repeat;
+}
+aside .qq{
+	background: url('../img/qq.png') center no-repeat;
+}
+aside .wechat{
+	background: url('../img/weixin.png') center no-repeat;
+}
+aside .tel{
+	background: url('../img/phone.png') center no-repeat;
+}
+aside .wechatdetail{
+	height:75px;
+	margin-top: -5px;
+	background: url('../img/fixerweima.png') center no-repeat;
+}
+aside .gotoTop{
+	position: fixed;
+	display: none;
+	bottom:2rem;
+	right:20px;
+	width: 59px;
+	height: 87px;
+	z-index: 2;
+	cursor: pointer;
+	background: url('../img/goto.png') center no-repeat;
+}

@@ -1,0 +1,48 @@
+*{
+	padding:0;
+	margin:0;
+	z-index: 1;
+	color:inherit;
+	font-size: inherit;
+	font-family: inherit;
+}
+html{
+	font-size: 12px;
+	font-family: 微软雅黑;
+}
+body>*{
+	width: 100%;
+}
+li{
+	list-style: none;
+}
+a,p{
+	text-decoration: none;
+}
+input{
+	border:none;
+	outline: none;
+	appearance:none;
+}
+.wrap{
+	width:1000px;
+	overflow:hidden;
+	position:relative;
+	margin:0 auto;
+}
+.left{
+	float:left;
+}
+.right{
+	float:right;
+}
+.float-sub>*{
+	float:left;
+}
+.float-sub:after,
+.clear:after{
+	content:"";
+	display: block;
+	height:0;
+	clear:both;
+}

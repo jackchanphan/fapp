@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <script>
+        var flag = -1;
+        var cnt = 4;
+        var str = "";
+        for(var i=0;i<7;i++){
+        if(cnt==0){
+          flag=1;
+        }
+        cnt=cnt+flag;
+        for(var j=0;j<7;j++){
+            if(j>=cnt &&j<7-cnt){
+            str+='*'
+            }else{
+            str+=' ';
+            }
+        }
+        str+='\n';
+        }
+        console.log(str);</script>
+    </head>
+    <body>
+    </body>
+</html>
